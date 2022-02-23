@@ -4,7 +4,7 @@ class FileRepo:
     
     def exportDataToString(self,x,t,y):  #x abscisse, y ordonnée, t temps
         for i in range (len(t)):
-            return(str(x[i]),",",str(y[i]),",",str(t[i]),";")  #chaine de caractère"x,y,t,x1;y1..."
+            print(str(x[i]),",",str(y[i]),",",str(t[i]),";")  #chaine de caractère"x,y,t,x1;y1..."
     
     def exportDataToCSV(self,):
         
